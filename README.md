@@ -9,3 +9,4 @@ The dataset consists of features that would help us identify and classify buildi
 # Data cleaning & Feature engineering
 Data wrangling, Exploratory data analysis and feature engineering were performed before training the data. The dataset contains no missing value. columns with high cardinality such as the building_id column was dropped as this column is not necessary for our machine learning. There was imbalance in the dataset as the proportion of severe damages far outweighed the proportion of non-severe damages as shown below.
 
+![Damage grade distribution](https://github.com/DannyRukks/Building-Damage-Prediction/assets/97890440/a49456dc-1d46-45c6-8249-4d0708737b5f)
